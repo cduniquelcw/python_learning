@@ -1,6 +1,6 @@
 name = ['zj','wd','ygz','bdt','wdm']#张捷、魏毒、洋鬼子、巴倒烫、伍短命
-for i in name:
-	print('Suprise '+i+', you motherfucker~')
+for i in name:#遍历
+	print('Suprise '+i+', you motherfucker~')#Tab 是必须的
 guests=['zj','wd','ygz']
 for j in guests:
 	print("I'd like to invite "+j+" to my dinner.")
