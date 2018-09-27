@@ -2,7 +2,13 @@ animals=['dog','cat','rabbit','tiger','snake','dragon','horse']
 for animal in animals:
 	print('A '+animal+' would make a great pet.')
 print("Any of those animal would make a great pet.")
-print('The first 3 items in the lists are : '+str(animals[0:3]))
+print('The first 3 items in the lists are : ')
+print(animals[:3])
+animals_2=animals[:]
+animals.append('sheep')
+animals_2.append('ox')
+print(animals)
+print(animals_2)
 numbers=list(range(1,21))
 print(numbers)
 numbers=list(range(1,1000001))
