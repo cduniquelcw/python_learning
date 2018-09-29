@@ -16,7 +16,7 @@ if 'banana' in favorite_fruits:
 if 'peach' in favorite_fruits:
 	print('You really like peach!')
 
-users_name=['zx','zj','wxj','ljj','admin']
+users_name=['Zx','Zj','wxj','ljj','admin']
 #users_name=[]
 if users_name:
 	for user_name in sorted(users_name):
@@ -28,9 +28,9 @@ else:
 	print('We need to find some users.')
 
 current_users=users_name
-new_users=['Zx','zj','wap','ty','hlp',]
+new_users=['ZX','zj','Wap','ty','hlp',]
 for new_user in new_users:
-	if new_user.lower() in current_users:
+	if new_user.lower() in [current_user.lower() for current_user in current_users]:#列表中忽略大小写的比较方法
 		print(new_user+': You need input other name.')
 	else:
 		print(new_user+': This name was not used.')
