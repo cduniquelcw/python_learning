@@ -17,17 +17,7 @@ favorite_numbers={
 for k,v in favorite_numbers.items():
 	print(k.title()+"'s favorite number is "+str(v)+'.\n')
 
-dir={
-	'print':'print sth',
-	'lower':'lower alphabet',
-	'upper':'upper alphabet',
-	'sorted':'in order',
-	'title':'title alphabet'
-}
-print('Print: '+dir['print'].title()+'\n')
 
-for k,v in dir.items():
-	print(k.title()+': '+v.title()+'.')
 
 	rivers_areas={'nile':'egypt','changjiang':'china','mississippi':'america',}
 for k,v in rivers_areas.items():
