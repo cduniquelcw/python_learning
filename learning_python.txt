@@ -1,0 +1,4 @@
+Python 学习笔记
+In Python you can calculate data.
+In Python you can print sentence.
+In Python you can read file.
